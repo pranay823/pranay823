@@ -14,7 +14,12 @@ struct example{
          }
   };
 int main(){
- struct example e;
- e.input();
- e.display();
+   int i;
+ struct example e[10] ;
+  for(i=0;i<10;i++){
+   e[i].input();
 }
+for(i=0;i<10;i++){
+  e[i].display();
+
+}}
